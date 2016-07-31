@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'UURCCentralizedTokenView_Example' do
+  pod 'UURCCentralizedTokenView', :path => '../'
+
+  target 'UURCCentralizedTokenView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
