@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.description      = 'Customizable Centralized TokenView for iOS applications.'
 
   s.homepage         = 'https://github.com/ugurcetinkaya/UURCCentralizedTokenView'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.screenshots     = 'https://raw.githubusercontent.com/ugurcetinkaya/UURCCentralizedTokenView/master/ss.png'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Ugur Cetinkaya' => 'ugurcetinkaya@ymail.com' }
   s.source           = { :git => 'https://github.com/ugurcetinkaya/UURCCentralizedTokenView.git', :tag => s.version.to_s }
