@@ -1,11 +1,4 @@
-use_frameworks!
+platform :'ios', '8.0'
 
-target 'UURCCentralizedTokenView_Example' do
-  pod 'UURCCentralizedTokenView', :path => '../'
-
-  target 'UURCCentralizedTokenView_Tests' do
-    inherit! :search_paths
-
-    
-  end
-end
+pod 'Masonry'
+pod 'UURCCentralizedTokenView'

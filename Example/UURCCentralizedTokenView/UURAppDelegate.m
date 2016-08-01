@@ -7,12 +7,20 @@
 //
 
 #import "UURAppDelegate.h"
+#import "UURViewController.h"
 
 @implementation UURAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.backgroundColor = [UIColor whiteColor];
+    
+    UURViewController *splashController = [UURViewController new];
+    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:splashController];
+    [self.window setRootViewController:navigationController];
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

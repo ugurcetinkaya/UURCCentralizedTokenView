@@ -1,0 +1,13 @@
+PODS:
+  - Masonry (1.0.1)
+  - UURCCentralizedTokenView (0.1.1)
+
+DEPENDENCIES:
+  - Masonry
+  - UURCCentralizedTokenView
+
+SPEC CHECKSUMS:
+  Masonry: a1a931a0d08870ed8ae415a2ea5ea68ebcac77df
+  UURCCentralizedTokenView: 7e1cc07adcacaf8c5b7f1d564af115f0c8528acd
+
+COCOAPODS: 0.39.0
